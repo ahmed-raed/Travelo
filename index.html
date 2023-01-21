@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" type="x-icon" href="Images/icon.png">
+    <title>Travelo</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header__top">
+            <div class="contact__details">
+                <a href="mailto:moozn19@gmail.com" class="contact__email">moozn19@gmail.com</a>
+            </div>
+            <ul class="header__social__links">
+                <li><a href="https://www.facebook.com/ahmed.raed.202" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/44.ed/" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+                <li><a href="https://twitter.com/Ahmed30847706" target="_blank"><i class="bx bxl-twitter"></i></a></li>
+            </ul>
+        </div>
+        
+        <div id="nav__wrapper" class="nav__wrapper">
+            <nav class="nav">
+                <a href="#" class="nav__logo">Travelo</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#destinations" class="nav__link">Destinations</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#tours" class="nav__link">Tour</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#gallery" class="nav__link">Gallery</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#blogs" class="nav__link">Blogs</a>
+                        </li>
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                        <i class="bx bx-x"></i>
+                    </div>
+                </div>
+
+                <div class="nav__search" id="nav-search">
+                    <i class="bx bx-search"></i>
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+    <div id="search-bar" class="search__bar__wrapper">
+        <form action="#" class="search__bar">
+            <input type="text" placeholder="Search..." required>
+            <button type="submit" class="search__submit bx bx-search"></button>
+            <i id="search-close" class="search__close bx bx-x"></i>
+        </form>
+    </div>
+
+    <section id="home">
+        <div class="wrapper">
+            <div id="home-carousel" class="home-carousel owl-carousel owl-theme">
+                <div class="home__slide slide__1">
+                    <div class="overlay"></div>
+                    <div class="home__slide__content">
+                        <h1 class="heading__text">New Zealand</h1>
+                        <p class="home__slide__desc">
+                            Let's find the best travel destinations for you
+                        </p>
+                        <div>
+                            <button class="btn btn__1">Want a personal tour</button>
+                            <button class="btn btn__2 light">Choose tour</button>
+                            <button class="carousel__next__btn carousel__btn light" data-target="#home-carousel">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__slide slide__2">
+                    <div class="overlay"></div>
+                    <div class="home__slide__content">
+                        <h1 class="heading__text">Kyoto, Japan</h1>
+                        <p class="home__slide__desc">
+                            Let's find the best travel destinations for you
+                        </p>
+                        <div>
+                            <button class="btn btn__1">Want a personal tour</button>
+                            <button class="btn btn__2 light">Choose tour</button>
+                            <button class="carousel__next__btn carousel__btn light" data-target="#home-carousel">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="home__slide slide__3">
+                    <div class="overlay"></div>
+                    <div class="home__slide__content">
+                        <h1 class="heading__text">The Great Outdoors</h1>
+                        <p class="home__slide__desc">
+                            Let's find the best travel destinations for you
+                        </p>
+                        <div>
+                            <button class="btn btn__1">Want a personal tour</button>
+                            <button class="btn btn__2 light">Choose tour</button>
+                            <button class="carousel__next__btn carousel__btn light" data-target="#home-carousel">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="best__destination" data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="2000">
+            <i class="bx bxs-map"></i>
+            <p>The most popular destination this year - Thailand</p>
+        </div>
+
+    </section>
+
+    <section id="destinations" class="section__padding">
+        <div class="wrapper">
+            <div class="section__top">
+                <div class="section__heading">
+                    <p class="section__subtitle">Popularly</p>
+                    <h2 class="section__title light">Most popular<br>holiday destinations</h2>
+                </div>
+
+                <div class="button__wrapper">
+                    <div class="carousel__buttons">
+                        <div class="carousel__prev__btn carousel__btn light" data-target="#destination-carousel">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                        <div class="carousel__next__btn carousel__btn light" data-target="#destination-carousel">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <button class="btn btn__2 light">View all tours</button>
+                </div>
+            </div>
+            <div id="destination-carousel" class="destination-carousel owl-carousel owl-theme" data-aos="fade-right" data-aos-duration="1000">
+                <div class="destination__slide">
+                    <div class="overlay"></div>
+                    <img src="Images/dest-1.jpg" alt="dest-img-1">
+                    <div class="tag__list">                    
+                        <div class="tags discount">20% OFF</div>
+                        <div class="tags new">NEW</div>
+                    </div>
+                    <div class="content">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star inactive"></i>
+                            <span>(9 Reviews)</span>
+                        </div>
+                        <h3 class="title">Autumn in Japan | $3,500 $3,880</h3>
+                        <p class="description">
+                            6 excursions to the main cities of the country, admire the beautiful autumn gardens
+                        </p>
+                        <div class="time">
+                            <i class="fa-regular fa-clock clock"></i>
+                            <span class="days">7 Days</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination__slide">
+                    <div class="overlay"></div>
+                    <img src="Images/dest-2.jpg" alt="dest-img-2">
+                    <div class="tag__list">                    
+                        <div class="tags discount">10% OFF</div>
+                    </div>
+                    <div class="content">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <span>(51 Reviews)</span>
+                        </div>
+                        <h3 class="title">A tour of the Islands</h3>
+                        <p class="description">
+                            6 excursions to the main cities of the country, admire the beautiful autumn gardens
+                        </p>
+                        <div class="time">
+                            <i class="fa-regular fa-clock clock"></i>
+                            <span class="days">7 Days</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination__slide">
+                    <div class="overlay"></div>
+                    <img src="Images/dest-3.jpg" alt="dest-img-3">
+                    <div class="tag__list">                    
+                        <div class="tags discount">20% OFF</div>
+                    </div>
+                    <div class="content">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star inactive"></i>
+                            <span>(13 Reviews)</span>
+                        </div>
+                        <h3 class="title">Seychelles | $3,500 $3,880</h3>
+                        <p class="description">
+                            6 excursions to the main cities of the country, admire the beautiful autumn gardens
+                        </p>
+                        <div class="time">
+                            <i class="fa-regular fa-clock clock"></i>
+                            <span class="days">7 Days</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination__slide">
+                    <div class="overlay"></div>
+                    <img src="Images/dest-4.jpg" alt="dest-img-4">
+                    <div class="tag__list">                    
+                    </div>
+                    <div class="content">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star inactive"></i>
+                            <span>(13 Reviews)</span>
+                        </div>
+                        <h3 class="title">Autumn in Japan | $3,500 $3,880</h3>
+                        <p class="description">
+                            6 excursions to the main cities of the country, admire the beautiful autumn gardens
+                        </p>
+                        <div class="time">
+                            <i class="fa-regular fa-clock clock"></i>
+                            <span class="days">7 Days</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination__slide">
+                    <div class="overlay"></div>
+                    <img src="Images/dest-5.jpg" alt="dest-img-5">
+                    <div class="tag__list">                    
+                    </div>
+                    <div class="content">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star inactive"></i>
+                            <span>(13 Reviews)</span>
+                        </div>
+                        <h3 class="title">A tour of the Islands</h3>
+                        <p class="description">
+                            6 excursions to the main cities of the country, admire the beautiful autumn gardens
+                        </p>
+                        <div class="time">
+                            <i class="fa-regular fa-clock clock"></i>
+                            <span class="days">7 Days</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="search__tour">
+        <div class="search__tour__wrapper" data-aos="fade-up" data-aos-duration="1000">
+
+            <div class="section__heading">
+                <p class="section__subtitle">Search Tour</p>
+                <h2 class="section__title dark">
+                    Ready to rest? We are ready to help with the search
+                </h2>
+            </div>
+
+            <form action="#" class="feilds">
+                <div class="feild__item">
+                    <label for="destination" class="feild__label">Destination</label>
+                    <div class="feild__input">
+                        <input type="text" placeholder="Where to?" required>
+                        <i class="bx bx-search"></i>
+                    </div>
+                </div>
+                <div class="feild__item">
+                    <label for="date" class="feild__label">Date</label>
+                    <div class="feild__input">
+                        <input type="date" required>
+                    </div>
+                </div>
+                <div class="feild__item">
+                    <label for="persons" class="feild__label">Persons</label>
+                    <div class="feild__input">
+                        <input type="text" placeholder="1 Person" required>
+                        <i class="bx bx-user"></i>
+                    </div>
+                </div>
+                <div class="feild__item">
+                    <label for="travel" class="feild__label">Travel Type</label>
+                    <div class="feild__select">
+                        <select name="Travel Type">
+                            <option value="city">City Tour</option>
+                            <option value="city">Adventure</option>
+                            <option value="city">Seasonal Tour</option>
+                            <option value="city">Hike</option>
+                            <option value="city">Wildlife</option>
+                            <option value="city">Cultural Tour</option>
+                            <option value="city">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn__1">
+                    <i class="bx bx-search"></i>
+                </button>
+            </form>
+
+        </div>
+    </section>
+
+    <section id="tours" class="section__padding">
+
+        <div class="wrapper">
+            <div class="section__top">
+                <div class="section__heading">
+                    <p class="section__subtitle">Packages</p>
+                    <h2 class="section__title dark">Our Best Tour Packages</h2>
+                </div>
+
+                <div class="button__wrapper">
+                    <div class="carousel__buttons">
+                        <div class="carousel__prev__btn carousel__btn dark" data-target="#tour-carousel">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                        <div class="carousel__next__btn carousel__btn dark" data-target="#tour-carousel">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <button class="btn btn__2 dark">View all tours</button>
+                </div>
+            </div>
+
+            <div id="tour-carousel" class="tour-carousel owl-carousel owl-theme" data-aos="fade-right" data-aos-duration="1000">
+
+                <div class="tour__item">
+                    <div class="img__box">
+                        <img src="Images/tour-1.jpg" alt="#">
+                    </div>
+                    <div class="tour__item__content">
+                        <div class="tour__details">
+                            <a href="#" class="tour__name">Eastern Desert</a>
+                            <div class="rating">5 <i class="bx bxs-star"></i></div>
+                        </div>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fugit quisquam praesentium, sit officiis minima quaerat optio. 
+                            Corrupti eos iusto culpa veritatis suscipit, molestias nesciunt vel, a et nam commodi?</p>
+                        <div class="tour__details">
+                            <div class="location">
+                                <i class="bx bxs-map"></i>
+                                <p>Egypt</p>
+                            </div>
+                            <div class="price">
+                                <i class="bx bx-dollar"></i>
+                                <p>160 <span>/ package</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="tour__item">
+                    <div class="img__box">
+                        <img src="Images/tour-2.jpg" alt="#">
+                    </div>
+                    <div class="tour__item__content">
+                        <div class="tour__details">
+                            <a href="#" class="tour__name">Moscow</a>
+                            <div class="rating">4.3 <i class="bx bxs-star"></i></div>
+                        </div>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fugit quisquam praesentium, sit officiis minima quaerat optio. 
+                            Corrupti eos iusto culpa veritatis suscipit, molestias nesciunt vel, a et nam commodi?</p>
+                        <div class="tour__details">
+                            <div class="location">
+                                <i class="bx bxs-map"></i>
+                                <p>Russia</p>
+                            </div>
+                            <div class="price">
+                                <i class="bx bx-dollar"></i>
+                                <p>180 <span>/ package</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="tour__item">
+                    <div class="img__box">
+                        <img src="Images/tour-3.jpg" alt="#">
+                    </div>
+                    <div class="tour__item__content">
+                        <div class="tour__details">
+                            <a href="#" class="tour__name">Lake Erie</a>
+                            <div class="rating">4.9 <i class="bx bxs-star"></i></div>
+                        </div>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fugit quisquam praesentium, sit officiis minima quaerat optio. 
+                            Corrupti eos iusto culpa veritatis suscipit, molestias nesciunt vel, a et nam commodi?</p>
+                        <div class="tour__details">
+                            <div class="location">
+                                <i class="bx bxs-map"></i>
+                                <p>Canada</p>
+                            </div>
+                            <div class="price">
+                                <i class="bx bx-dollar"></i>
+                                <p>200 <span>/ package</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="tour__item">
+                    <div class="img__box">
+                        <img src="Images/tour-4.jpg" alt="#">
+                    </div>
+                    <div class="tour__item__content">
+                        <div class="tour__details">
+                            <a href="#" class="tour__name">London Bridge</a>
+                            <div class="rating">3.9 <i class="bx bxs-star"></i></div>
+                        </div>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fugit quisquam praesentium, sit officiis minima quaerat optio. 
+                            Corrupti eos iusto culpa veritatis suscipit, molestias nesciunt vel, a et nam commodi?</p>
+                        <div class="tour__details">
+                            <div class="location">
+                                <i class="bx bxs-map"></i>
+                                <p>England</p>
+                            </div>
+                            <div class="price">
+                                <i class="bx bx-dollar"></i>
+                                <p>190 <span>/ package</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="tour__item">
+                    <div class="img__box">
+                        <img src="Images/tour-5.jpg" alt="#">
+                    </div>
+                    <div class="tour__item__content">
+                        <div class="tour__details">
+                            <a href="#" class="tour__name">Sun Temple</a>
+                            <div class="rating">3.8 <i class="bx bxs-star"></i></div>
+                        </div>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fugit quisquam praesentium, sit officiis minima quaerat optio. 
+                            Corrupti eos iusto culpa veritatis suscipit, molestias nesciunt vel, a et nam commodi?</p>
+                        <div class="tour__details">
+                            <div class="location">
+                                <i class="bx bxs-map"></i>
+                                <p>Odisha</p>
+                            </div>
+                            <div class="price">
+                                <i class="bx bx-dollar"></i>
+                                <p>130 <span>/ package</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="tour__item">
+                    <div class="img__box">
+                        <img src="Images/tour-6.jpg" alt="#">
+                    </div>
+                    <div class="tour__item__content">
+                        <div class="tour__details">
+                            <a href="#" class="tour__name">New York</a>
+                            <div class="rating">4.4 <i class="bx bxs-star"></i></div>
+                        </div>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fugit quisquam praesentium, sit officiis minima quaerat optio. 
+                            Corrupti eos iusto culpa veritatis suscipit, molestias nesciunt vel, a et nam commodi?</p>
+                        <div class="tour__details">
+                            <div class="location">
+                                <i class="bx bxs-map"></i>
+                                <p>USA</p>
+                            </div>
+                            <div class="price">
+                                <i class="bx bx-dollar"></i>
+                                <p>150 <span>/ package</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="gallery" class="section__padding">
+        <div class="wrapper" data-aos="fade-up" data-aos-duration="1000">
+            <div class="section__top">
+
+                <div class="section__heading">
+                    <p class="section__subtitle">GALLERY</p>
+                    <h2 class="section__title light">Photos from travellers</h2>
+                </div>
+
+            </div>
+            <div class="gallery__wrapper section__content">
+                <a href="Images/gallery-1.jpg" class="gallery__item gallery__item__1">
+                    <img src="Images/gallery-1.jpg" alt="#">
+                    <div class="icon">
+                        <i class="bx bx-search"></i>
+                    </div>
+                </a>
+                <a href="Images/gallery-2.jpg" class="gallery__item gallery__item__2">
+                    <img src="Images/gallery-2.jpg" alt="#">
+                    <div class="icon">
+                        <i class="bx bx-search"></i>
+                    </div>
+                </a>
+                <a href="Images/gallery-3.jpg" class="gallery__item gallery__item__3">
+                    <img src="Images/gallery-3.jpg" alt="#">
+                    <div class="icon">
+                        <i class="bx bx-search"></i>
+                    </div>
+                </a>
+                <a href="Images/gallery-4.jpg" class="gallery__item gallery__item__4">
+                    <img src="Images/gallery-4.jpg" alt="#">
+                    <div class="icon">
+                        <i class="bx bx-search"></i>
+                    </div>
+                </a>
+                <a href="Images/gallery-5.jpg" class="gallery__item gallery__item__5">
+                    <img src="Images/gallery-5.jpg" alt="#">
+                    <div class="icon">
+                        <i class="bx bx-search"></i>
+                    </div>
+                </a>
+                <a href="Images/gallery-6.jpg" class="gallery__item gallery__item__6">
+                    <img src="Images/gallery-6.jpg" alt="#">
+                    <div class="icon">
+                        <i class="bx bx-search"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="blogs" class="section__padding">
+        <div class="wrapper">
+            <div class="section__top">
+
+                <div class="section__heading text__center">
+                    <p class="section__subtitle">BLOGS</p>
+                    <h2 class="section__title light">Travel Articles</h2>
+                    <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quia, nostrum illo minima aliquam nemo, 
+                        aliquid quod a nisi voluptatem ipsa praesentium sequi ea deleniti cupiditate placeat impedit sint sunt.</p>
+                </div>
+            </div>
+
+            <div class="section__content">
+                <div class="blog__item__wrapper">
+                    <a href="#" class="blog__item">
+                        <article>
+                            <div class="blog__img" data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
+                                <img src="Images/blog_1.jpg" alt="#">
+                            </div>
+                            <div class="blog__content">
+                                <p class="blog__date">
+                                    FEB 2/2023
+                                </p>
+                                <h4 class="blog__name">
+                                    Pack wisely before travelling
+                                </h4>
+                                <p class="blog__text">A wonderful serenity has taken possession of my entire soul,
+                                     like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a href="#" class="blog__item" data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
+                        <article>
+                            <div class="blog__img">
+                                <img src="Images/blog_2.jpg" alt="#">
+                            </div>
+                            <div class="blog__content">
+                                <p class="blog__date">
+                                    JAN 9/2023
+                                </p>
+                                <h4 class="blog__name">
+                                    Pack wisely before travelling
+                                </h4>
+                                <p class="blog__text">A wonderful serenity has taken possession of my entire soul,
+                                     like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            </div>
+                        </article>
+                    </a>
+
+                </div>
+                <div class="btn__wrapper">
+                    <button class="btn btn__2 light">View All Blogs</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+
+        <div class="footer__top">
+            <div class="brand__info col">
+                <a href="#" class="footer__logo">Travelo</a>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts. Separated they live in Bookmarksgrove</p>
+                <ul class="social__links">
+                    <li><a href="https://www.facebook.com/ahmed.raed.202" target="_blank" class="bx bxl-facebook"></a></li>
+                    <li><a href="https://www.instagram.com/44.ed/" target="_blank" class="bx bxl-instagram"></a></li>
+                    <li><a href="https://twitter.com/Ahmed30847706" target="_blank" class="bx bxl-twitter"></a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Address</h4>
+                <p>Mosul, Iraq</p>
+                <p>E: moozn19@gmail.com</p>
+            </div>
+            <div class="col">
+                <h4>MORE INFO</h4>
+                <a href="#home">Home</a>
+                <a href="#destinations">Destinations</a>
+                <a href="#tours">Tours</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#blogs">Blogs</a>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p>Copyright 2023 | © All Rights Reserved</p>
+            <p>Made With <i class="bx bxs-heart" title="Love"></i> By <a href="https://www.linkedin.com/in/ahmed-raed-666a5a23b/" target="_blank">Ahmed Raed</a></p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js" ></script>
+    <script>
+        lightGallery(document.querySelector('.gallery__wrapper'), {
+            download: false,
+            share: false,
+        })
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
