@@ -37,6 +37,20 @@ body {
     color: var(--white-color);
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: #eee;
+    border-radius: 10px;
+}
+
 .section__padding {
     padding: 0px 15px;
 }
